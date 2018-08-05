@@ -1,0 +1,92 @@
+#savefile-version 6
+#delim normal
+#alias beer={/load o 6502}
+#alias calc={#var @-1 = !echo '$0' | bc -l;#print (@-1)}
+#alias choc={/at 213:103 /load o 8026}
+#alias coff={/at 213:0 /load o 6011}
+#alias dir_desc={/lib ro here add dir_desc dir $1}
+#alias door={#var $door=$1;#print <door set to $1}
+#alias dropfol={drop $0;fol $0}
+#alias kk=/kit Filbo
+#alias kt=tell Filbo $0
+#alias kw=whois Filbo
+#alias massivegold={#10 {#10 /at 213:103 /load o 8507;drop all;get all.coins}}
+#alias mender={/load m 6118}
+#alias mostly={,utters the word 'mostly'}
+#alias pause={,pauses to get his bearings.}
+#alias printcmd=#print ((attr "cyan") + "$0" + noattr)
+#alias printcommand=#print ((attr "cyan") + "$0" + noattr)
+#alias re=tel Vairë $0
+#alias ros={,raises his right hand.;/ro save;,cries "Room saved!"}
+#alias tj=tel jaelle $0
+#alias tk=tel kegan $0
+#alias tm=tel vaire $0
+#alias ws={wake;stand}
+#action >+retracer ^Alas= {#map -1;#print;#print removed dir}
+#action >-telvar $1 tells you '&2'={#var $teller=$1;#print;printcommand teller set to $1;sc}
+#action >+reply 1m$1 tells you={#print; #alias re=tel $1 \$0}
+#action >+AccountList ^Account menu={#print;list level}
+#action >+The $1 seems to be closed.={#print;#bind KP3=open $1}
+#mark &[A  A]&=yellow
+#mark &\(Idle\)=cyan
+#mark &\(Linkless\)=cyan
+#mark NEW=red
+#(@-1 = 15)
+#($-1 = "test")
+#(@xp = 6021)
+#($door = "class")
+#($lastdir = "e")
+#($teller = "Testbot")
+#bind BS &del-char-left=¸én
+#bind C-a &begin-of-line=¸én
+#bind C-b &prev-char=¸én
+#bind C-d &del-char-right=¸én
+#bind C-e &end-of-line=¸én
+#bind C-f &next-char=¸én
+#bind C-k &kill-to-eol=¸én
+#bind C-l &redraw-line=¸én
+#bind C-n &next-line=¸én
+#bind C-p &prev-line=¸én
+#bind C-t &transpose=¸én
+#bind C-w &to-history=¸én
+#bind C-z &suspend=¸én
+#bind Del &del-char-left=¸én
+#bind Down &next-line=¸én
+#bind F1 {info}=¸én
+#bind F3 {who ainur}=¸én
+#bind F4 {inv}=¸én
+#bind F5 {l in pack}=¸én
+#bind KP0 flee=¸én
+#bind KP1 d=¸én
+#bind KP2 s=¸én
+#bind KP3 open Labyrinth=¸én
+#bind KP4 w=¸én
+#bind KP5 exits=¸én
+#bind KP6 e=¸én
+#bind KP7 u=¸én
+#bind KP8 n=¸én
+#bind KP9 clo door=¸én
+#bind KPENTER  =¸én
+#bind KP_PLUS sneak=¸én
+#bind KP_SLASH cha moo wim=¸én
+#bind KP_STAR cha moo norm=¸én
+#bind KP_SUB cha moo aggr=¸én
+#bind LF &enter-line=¸én
+#bind Left &prev-char=¸én
+#bind M-BS &del-word-left=¸én
+#bind M-Del &del-word-left=¸én
+#bind M-Tab &complete-line=¸én
+#bind M-b &prev-word=¸én
+#bind M-d &del-word-right=¸én
+#bind M-f &next-word=¸én
+#bind M-k &redraw-line-noprompt=¸én
+#bind M-l &downcase-word=¸én
+#bind M-t &transpose-words=¸én
+#bind M-u &upcase-word=¸én
+#bind Ret &enter-line=¸én
+#bind Right &next-char=¸én
+#bind Tab &complete-word=¸én
+#bind Up &prev-line=¸én
+#bind f4 inv=¸én
+#option -exit -history -words -compact -debug +echo +info +keyecho -speedwalk
+#option -wrap -autoprint -reprint -sendsize +autoclear

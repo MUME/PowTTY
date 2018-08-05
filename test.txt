@@ -1,0 +1,47 @@
+
+#capture to `test.txt' active, `#capture' ends.
+
+loden
+Account pass phrase: 
+
+Reconnecting.
+
+* W iMb 24111[227:11]>home
+/go 150:25
+Comfy Chairs
+As you step down from the garden above, you find yourself in this comfortable
+sitting room. The walls are adorned with murals chronicling the great race wars
+of Arda. They tell the tale of one white-haired cleric weilding a bejewelled
+oak staff and driving Sauron's forces back into their dark lairs. A few lap
+blankets are casually laid around the room.
+Read keyword 'TASKS' to see what Loden's up to.
+A few big, comfy chairs are situated near a large stone fireplace.
+A quill pen lies here.
+A large stone fireplace with a roaring fire warms the room.
+A small oaken table has been set here.
+
+* W iMb 15025[150:25]>wg
+who ainur
+Ainur
+-----
+ [A  M] Naga the Serpent  (Idle)
+*[A Mb] Trent trippin' 
+*[A  M] Elistan the High Priest of Valinor  (Linkless)
+*[A  M] Nàrdhàl the Noldorin King  (Linkless)
+*[A Mb] Mezmeree ~  Magic Potions Made to Mesmerize   (Idle)
+*[A Mb] Trexus The Great Dipper Of The Skies.  (Idle)
+*[A Mb] Loden the Pensive 
+ [A Mw] Soba - Irie Dub Selector  (Idle)
+ [A  M] Lancelot du Lake, Knight of the Round Table 
+*[A Mc] Finwë the King of the Noldor 
+*[A Va] Eärendil the Mariner 
+*[A  A] Staer the Senile [Retired] 
+*[A Mc] Leetah loves it when a plan comes together 
+ [A  M] Humala - Fountain of Divine Wisdom  
+*[A  A] Draught II Windyfoot  (Idle)
+*[A  A] Dáin II Ironfoot  (Idle)
+*[A Mw] Óin the Dwarven friend  (Idle)
+
+17 players on.
+
+* W iMb 15025[150:25]>#cap

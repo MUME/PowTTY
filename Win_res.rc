@@ -1,0 +1,197 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winresrc.h"
+#include "win_res.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_POWTTYICON          ICON    DISCARDABLE     "ICON2.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  140, 40, 222, 202
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PowTTY"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,89,182,48,14
+    LTEXT           "PowTTY © 2001 William D. Johnston. (Loden)  All rights reserved.",
+                    IDA_TEXT1,7,6,150,16
+    RTEXT           "",IDA_VERSION,74,17,144,11
+    LTEXT           "PowTTY is an amalgamation of powwow, a client for MUME, written on the unix/linux platform, and the telnet portion of PuTTY, a terminal client.",
+                    IDC_STATIC,4,42,214,28
+    LTEXT           "The end result is this client, which is enabled with local editing for MUME (www.mume.org)",
+                    IDC_STATIC,4,70,214,16
+    LTEXT           "Portions of this code are subject to the PuTTY licence as described by its author, Simon Tatham. (PuTTY © 1997-2000)",
+                    IDC_STATIC,4,95,214,30
+    LTEXT           "Portions of this code are subject to the same GNU public license as powwow, written by Massimiliano Ghilardi",
+                    IDC_STATIC,4,129,214,17
+    LTEXT           "Any new additions, original work, etc. done on this project are subject to the GNU public license",
+                    IDC_STATIC,4,157,214,16
+END
+
+IDD_MAINBOX DIALOG DISCARDABLE  0, 0, 280, 242
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PowTTY Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Open",IDOK,184,225,44,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,231,225,44,14
+    PUSHBUTTON      "&About",IDC_ABOUT,3,225,44,14,NOT WS_TABSTOP
+END
+
+IDD_RECONF DIALOG DISCARDABLE  0, 0, 280, 242
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PowTTY Reconfiguration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Apply",IDOK,184,225,44,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,231,225,44,14
+END
+
+IDD_LOGBOX DIALOG DISCARDABLE  100, 20, 260, 119
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PuTTY Event Log"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,135,102,44,14
+    PUSHBUTTON      "C&opy",IDN_COPY,81,102,44,14
+    LISTBOX         IDN_LIST,3,3,254,95,LBS_HASSTRINGS | LBS_USETABSTOPS | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL
+END
+
+IDD_LICENCEBOX DIALOG DISCARDABLE  50, 50, 226, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PowTTY & PuTTY Licences"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,98,203,44,14
+    LTEXT           "PuTTY Copyright © 1997-2000 Simon Tatham",1000,9,21,206,
+                    8
+    LTEXT           "Permission is hereby granted, free of charge, to any person",
+                    1002,10,29,206,8
+    LTEXT           "obtaining a copy of this software and associated documentation",
+                    1003,10,37,206,8
+    LTEXT           "files (the ""Software""), to deal in the Software without restriction,",
+                    1004,10,45,206,8
+    LTEXT           "including without limitation the rights to use, copy, modify, merge,",
+                    1005,10,53,206,8
+    LTEXT           "publish, distribute, sublicense, and/or sell copies of the Software,",
+                    1006,10,61,206,8
+    LTEXT           "and to permit persons to whom the Software is furnished to do so,",
+                    1007,10,69,206,8
+    LTEXT           "subject to the following conditions:",1008,10,77,206,8
+    LTEXT           "The above copyright notice and this permission notice shall be",
+                    1010,10,90,206,8
+    LTEXT           "included in all copies or substantial portions of the Software.",
+                    1011,10,98,206,8
+    LTEXT           "THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT",1013,10,
+                    114,206,8
+    LTEXT           "WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,",1014,10,122,
+                    206,8
+    LTEXT           "INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF",1015,10,
+                    130,206,8
+    LTEXT           "MERCHANTABILITY, FITNESS FOR A PARTICULAR",1016,10,138,
+                    206,8
+    LTEXT           "PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL",1017,
+                    10,146,206,8
+    LTEXT           "SIMON TATHAM BE LIABLE FOR ANY CLAIM, DAMAGES OR",1018,
+                    10,154,206,8
+    LTEXT           "OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,",
+                    1019,10,162,206,8
+    LTEXT           "TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN",1020,10,
+                    170,206,8
+    LTEXT           "CONNECTION WITH THE SOFTWARE OR THE USE OR",1021,10,178,
+                    206,8
+    LTEXT           "OTHER DEALINGS IN THE SOFTWARE.",1022,10,186,206,8
+    LTEXT           "PowTTY Copyright © 2001 William D. Johnston",1001,9,5,
+                    206,8
+    LTEXT           "(code base composed in part of PuTTY)",1009,13,12,206,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winresrc.h""\r\n"
+    "#include ""win_res.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 218
+        BOTTOMMARGIN, 196
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

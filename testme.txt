@@ -1,0 +1,8 @@
+
+#capture to `testme.txt' active, `#capture' ends.
+
+
+[33;1mEolung tells you 'not too bad'[0m
+#changed alias: re=tel Eolung $0
+
+* W iM 15025[150:25]>#cap

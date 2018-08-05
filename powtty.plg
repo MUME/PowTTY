@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: powtty - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AXELNE~1.000\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/powtty.pdb" /machine:I386 /out:"Release/powtty.exe" 
+.\Release\BE_NOSSH.OBJ
+.\Release\LDISC.OBJ
+.\Release\MISC.OBJ
+.\Release\powbeam.obj
+.\Release\powcmd.obj
+.\Release\powcmd2.obj
+.\Release\powedit.obj
+.\Release\poweval.obj
+.\Release\powhook.obj
+.\Release\powlist.obj
+.\Release\powlog.obj
+.\Release\powmain.obj
+.\Release\powmap.obj
+.\Release\powptr.obj
+.\Release\powtty.obj
+.\Release\powutils.obj
+.\Release\RAW.OBJ
+.\Release\regex.obj
+.\Release\SETTINGS.OBJ
+.\Release\SIZETIP.OBJ
+.\Release\TELNET.OBJ
+.\Release\TERMINAL.OBJ
+.\Release\TREE234.OBJ
+.\Release\VERSION.OBJ
+.\Release\WINCTRLS.OBJ
+.\Release\WINDLG.OBJ
+.\Release\WINDOW.OBJ
+.\Release\WINNET.OBJ
+.\Release\WINSTORE.OBJ
+.\Release\XLAT.OBJ
+.\Release\WIN_RES.res
+]
+Creating command line "link.exe @C:\DOCUME~1\AXELNE~1.000\LOCALS~1\Temp\RSP103.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+powtty.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
